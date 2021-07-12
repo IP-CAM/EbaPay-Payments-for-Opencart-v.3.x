@@ -1,0 +1,9 @@
+{% if error_warning %}
+<div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}</div>
+{% else %}
+<div class="buttons">
+  <div class="pull-right">
+    <a id="button-confirm" href="{{ action }}" target="_self" class="btn btn-primary">{{ button_confirm }}</a>
+  </div>
+</div>
+{% endif %}
