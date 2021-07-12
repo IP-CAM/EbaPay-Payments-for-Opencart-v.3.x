@@ -162,7 +162,7 @@ class ControllerExtensionPaymentebapay extends Controller
 
 			} else {
 
-				$data['payment_ebapay_verify'] = 'https://client.api.ebapay.ir/transactions/verification';
+				$data['payment_ebapay_verify'] = 'https://client.api.ebapay.ir/transactions/gate/verification';
 			}
 		}
 
